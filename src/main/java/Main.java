@@ -117,7 +117,7 @@ public class Main {
         }
 
         System.out.println("\n--- Testando exclusão de um problema (e seus comentários, localizações e contribuições associadas) ---");
-//        problemaDAO.excluir(problema2.getIdProblema());
+        problemaDAO.excluir(problema2.getIdProblema());
 
         System.out.println("\n--- Listando problemas após exclusão ---");
         problemas = problemaDAO.listarTodosEagerLoading();
